@@ -75,7 +75,7 @@ function Sidebar({ isSidebarOpen, setSidebarOpen }) {
                         className="flex justify-between items-center m-2.5 p-2.5 rounded border border-white/20 hover:bg-white/5 transition-colors duration-200 w-[calc(100%-20px)]"
                     >
                         <div className="flex items-center gap-3">
-                            <img src="/src/assets/blacklogo.png" alt="gpt logo" className="h-7 w-7 bg-white rounded-full object-cover" />
+                            <img src="/blacklogo.png" alt="gpt logo" className="h-7 w-7 bg-white rounded-full object-cover" />
                             <span>New Chat</span>
                         </div>
                         <span><i className="fa-solid fa-pen-to-square text-xl"></i></span>
