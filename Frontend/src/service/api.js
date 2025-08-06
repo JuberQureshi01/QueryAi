@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://queryai-kqcu.onrender.com', // Your backend URL
+  baseURL: 'https://queryai-kqcu.onrender.com/api', // Your backend URL
 });
 
 // This is an interceptor. It runs before every request.
