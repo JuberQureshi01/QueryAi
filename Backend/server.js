@@ -15,6 +15,10 @@ app.use("/api/auth", authRoutes); // Use auth routes
 
 app.use("/api", chatRoutes);
 
+app.get("/test",(req,res)=>{
+    res.send("working");
+});
+
 app.listen(PORT, () => {
     console.log(`server running on ${PORT}`);
     connectDB();
