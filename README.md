@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/your-queryai-logo.png" alt="Query AI Logo" width="150" />
+
 <h1>Query AI - Ask your Query</h1>
 <p>
 <strong>A full-stack MERN application that translates the questions into the Answer using the Google Gemini API.</strong>
